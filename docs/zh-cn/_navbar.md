@@ -1,7 +1,7 @@
 <!-- _navbar.md -->
 
-* [🐮🐮 Throwable's Blog](https://throwx.cn)
-* [❤️❤️ Spring专栏](https://spring.throwx.cn)
+* [🐮🐮 Ning's Blog](https://www.cnblogs.com/Ning-Blog/)
+* [❤️❤️ Ning专栏](https://ning310975876.gitee.io)
 * Translations
 
   * [:us:  英文](/)
