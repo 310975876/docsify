@@ -21,6 +21,8 @@
 
 基于 uniapp 开发，一份代码多终端适配，支持H5+支付宝小程序+微信小程序+APP
 
+查看源码：[https://gitee.com/Ning310975876/photo-graphy-uniapp](https://gitee.com/Ning310975876/photo-graphy-uniapp)
+
 ## 快速了解
 
 **Blog** 后台、WEB端地址：<a href="https://gitee.com/Ning310975876/ruo-yi-vue-blog" target="blank">https://gitee.com/Ning310975876/ruo-yi-vue-blog</a>

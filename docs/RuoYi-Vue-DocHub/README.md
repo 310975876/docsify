@@ -22,9 +22,9 @@
 * 支持加载动态权限菜单，多方式轻松权限控制。
 * 保持[RuoYi-Vue](https://gitee.com/y_project/RuoYi-Vue)同步更新。
 
-介绍演示：
+介绍演示：[幻灯片演示](https://ning310975876.gitee.io/docsify/impress/RuoYi-Vue-DocHub.html)
 
-在线文档：[https://ning310975876.gitee.io/docsify/](https://ning310975876.gitee.io/docsify/)
+查看源码：[https://gitee.com/Ning310975876/ruo-yi-vue-docHub](https://gitee.com/Ning310975876/ruo-yi-vue-docHub)
 
 ## 内置功能
 
