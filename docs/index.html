@@ -3,15 +3,16 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>一些无聊的开源项目</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <!-- 设置浏览器图标 -->
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <meta name="description" content="Description">
+  <link rel="icon" href="_media/icon.svg" type="image/x-icon" />
+  <link rel="shortcut icon" href="_media/icon.svg" type="image/x-icon" />
+  <meta name="description" content="开源博客网站采用 Spring Boot + MyBatis 前端 vue + element-ui 支持多种编辑器 CherryMarkdown  富文本编辑器 Quill Tinymce 支持标签分类检索 支持移动端和小程序,Blog文章分享/个人信息展示 基于uniapp开发 支持小程序 H5 Android和IOS,在线写作创作平台 支持world excel markdown 画图 思维导图 流程图等多种文档类型 支持基于 Markdown 的幻灯片制作 在线代码编写">
+  <meta name="keywords" content="开源博客网站采用 Spring Boot + MyBatis 前端 vue + element-ui 支持多种编辑器 CherryMarkdown  富文本编辑器 Quill Tinymce 支持标签分类检索 支持移动端和小程序,Blog文章分享/个人信息展示 基于uniapp开发 支持小程序 H5 Android和IOS,在线写作创作平台 支持world excel markdown 画图 思维导图 流程图等多种文档类型 支持基于 Markdown 的幻灯片制作 在线代码编写">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <!-- 默认主题 -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="themes/vue.css">
 </head>
 
 <body>
@@ -19,19 +20,25 @@
   <script>
     window.$docsify = {
       // 项目名称
-      name: 'demo',
+      name: '项目文档',
+      // 封面独立出来
+      onlyCover: true,
       // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
-      repo: 'https://gitee.com/Ning310975876/docsify',
+      repo: 'https://gitee.com/Ning310975876',
       // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
       loadSidebar: true,
+      // 避免不必要的回退过程
+      // alias: {
+      //   '/.*/_sidebar.md': '/_sidebar.md'
+      // },
       // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
       loadNavbar: true,
       // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
       coverpage: true,
       // 最大支持渲染的标题层级
-      maxLevel: 4,
+      maxLevel: 5,
       // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级，建议配置为1或者2
-      subMaxLevel: 2,
+      subMaxLevel: 4,
       // 小屏设备下合并导航栏到侧边栏
       mergeNavbar: true,
       // 搜索配置
@@ -39,8 +46,7 @@
         maxAge: 86400000,// 过期时间，单位毫秒，默认一天
         // paths: auto,// 注意：仅适用于 paths: 'auto' 模式
         placeholder: {
-          '/zh-cn/': '搜索',
-          '/': 'Type to search'
+          '/': '搜索'
         },
         noData: '找不到结果',
         depth: 4,
@@ -54,28 +60,54 @@
         color: 'rgb(90,90,90)',
         language: 'chinese'
       },
-      // 避免不必要的回退过程
-      alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
+      //复制到剪贴板
+      copyCode: {
+        buttonText : '复制',
+        errorText  : 'Error',
+        successText: '已复制到剪切板'
+      },
+      //分页导航
+      pagination: {
+        previousText: '上一章节',
+        // or
+        nextText:  '下一章节',
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      //设置进度条展示
+      progress: {
+        position: "top",//设置进度条展示的位置  'top' (默认值Default) / 'bottom'
+        color: "var(--theme-color,#42b983)",//设置进度条颜色
+        height: "3px",//设置进度条高度
       },
     }
   </script>
   <!-- docsify的js依赖 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="docsify.min.js"></script>
   <!-- emoji表情支持 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="plugins/emoji.min.js"></script>
   <!-- 图片放大缩小支持 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="plugins/zoom-image.min.js"></script>
   <!-- 搜索功能支持 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="plugins/search.min.js"></script>
   <!-- 复制到剪贴板 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="plugins/docsify-copy-code.js"></script>
   <!-- 字数统计 -->
-  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-  <!-- java语法高亮 -->
-  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-java.min.js"></script>
-  <!-- emoji 插件 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="plugins/countable.js"></script>
+  <!-- 语法高亮 -->
+  <script src="prism/prism-javascript.min.js"></script>
+  <script src="prism/prism-java.min.js"></script>
+  <script src="prism/prism-json.min.js"></script>
+  <script src="prism/prism-less.min.js"></script>
+  <script src="prism/prism-sass.min.js"></script>
+  <script src="prism/prism-scss.min.js"></script>
+  <script src="prism/prism-sql.min.js"></script>
+  <script src="prism/prism-css.min.js"></script>
+  <script src="prism/prism-sql.min.js"></script>
+  <!-- 分页导航插件 -->
+  <script src="plugins/docsify-pagination.min.js"></script>
+  <!-- 设置进度条展示 -->
+  <script src="plugins/progress.min.js"></script>
   <!-- Docsify v4 -->
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> -->
 </body>
