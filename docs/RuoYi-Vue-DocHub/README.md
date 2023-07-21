@@ -13,23 +13,51 @@
 </p>
 
 ## 简介
-
+----
 &emsp;&emsp;“**文档便利店**”开业啦，这是一个在线写作创作平台，它可以让你随时随地记录下灵感和想法。在文档便利店上，你可以创建各种类型的文档，包括笔记、日记、文章、论文等等。无论你是学生、工作者还是创作者，文档便利店都能为你提供一个方便的写作环境，让你的创作更加自由和畅快。 文档便利店的界面简洁清晰，操作简单易懂。你可以随时保存你的文档，以备后续编辑或分享，让你的写作更加高效和便捷。
 
 &emsp;&emsp;支持world、excel、markdown、画图、思维导图、流程图等多种文档类型，支持基于 Markdown 的幻灯片制作、在线代码编写。
+
+&emsp;&emsp;👍👍 感谢若依❤️❤️ 
 
 * 前端采用Vue、Element UI。
 * 后端采用Spring Boot、Spring Security、Redis & Jwt。
 * 权限认证使用Jwt，支持多终端认证系统。
 * 支持加载动态权限菜单，多方式轻松权限控制。
-* 保持[RuoYi-Vue](https://gitee.com/y_project/RuoYi-Vue)同步更新。
+* 基于`RuoYi-Vue`框架开发，保持[RuoYi-Vue](https://gitee.com/y_project/RuoYi-Vue)同步更新。
 
-介绍演示：[幻灯片演示](https://ning310975876.gitee.io/docsify/impress/RuoYi-Vue-DocHub.html)
+介绍演示：[幻灯片介绍](https://ning310975876.gitee.io/docsify/impress/RuoYi-Vue-DocHub.html)
 
 查看源码：[https://gitee.com/Ning310975876/ruo-yi-vue-docHub](https://gitee.com/Ning310975876/ruo-yi-vue-docHub)
 
-## 内置功能
+## 技术选型
+----
+**1、系统环境**
 
+- Java EE 8
+- Servlet 3.0
+- Apache Maven 3
+
+**2、主框架**
+
+- Spring Boot 2.2.x
+- Spring Framework 5.2.x
+- Spring Security 5.2.x
+
+**3、持久层**
+
+- Apache MyBatis 3.5.x
+- Hibernate Validation 6.0.x
+- Alibaba Druid 1.2.x
+
+**4、视图层**
+
+- Vue 2.6.x
+- Axios 0.21.x
+- Element 2.15.x
+
+## 内置功能
+----
 1.  用户管理：用户是系统操作者，该功能主要完成系统用户配置。
 2.  部门管理：配置系统组织机构（公司、部门、小组），树结构展现支持数据权限。
 3.  岗位管理：配置系统用户所属担任职务。
@@ -48,3 +76,4 @@
 16. 缓存监控：对系统的缓存信息查询，命令统计等。
 17. 在线构建器：拖动表单元素生成相应的HTML代码。
 18. 连接池监视：监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。
+

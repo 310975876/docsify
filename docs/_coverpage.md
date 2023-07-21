@@ -43,7 +43,7 @@
           <div style="background-color: #00cb14;display: inline-block;width: 14px;height: 14px;border-radius: 50%;margin-left: 8px;"></div>
         </div>
         <div class="body" style="width: 100%;height: 100%;">
-          <img src="_media/Blog.png" style="width: 100%;height: 100%;object-fit: fill;margin-bottom: -4px;"/>
+          <img src="_media/Blog.jpg" style="width: 100%;height: 100%;object-fit: fill;margin-bottom: -4px;"/>
         </div>
       </div>
     </div>
@@ -108,9 +108,9 @@
   <div class="contentItem" style="width: 100%;padding: 100px 100px;">
     <div class="contentItemInner" style="width: 100%;margin: 0 auto;display: flex;align-items: center;">
       <div class="browserContainer" style="width: 50%;height: 100%;display: flex;">
-		<div class="phone" style="margin: 0 auto;background-image: url(_media/blog-phone.png);background-repeat: no-repeat;background-size: 100%;height: 100%;padding: 180px 16px;box-sizing: border-box;width: 201px;border-radius: 12px;">
+		<div class="phone" style="margin: 0 auto;background-image: url(_media/blog-phone.jpg);background-repeat: no-repeat;background-size: 100%;height: 100%;padding: 180px 16px;box-sizing: border-box;width: 201px;border-radius: 12px;">
         </div>
-		<div class="phone" style="margin: 0 auto;background-image: url(_media/blog-phone1.png);background-repeat: no-repeat;background-size: 100%;height: 100%;padding: 180px 16px;box-sizing: border-box;width: 201px;border-radius: 12px;">
+		<div class="phone" style="margin: 0 auto;background-image: url(_media/blog-phone1.jpg);background-repeat: no-repeat;background-size: 100%;height: 100%;padding: 180px 16px;box-sizing: border-box;width: 201px;border-radius: 12px;">
         </div>
       </div>
       <div class="infoContainer" style="width: 50%;margin-left: 50px;">
