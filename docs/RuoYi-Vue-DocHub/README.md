@@ -20,11 +20,6 @@
 
 &emsp;&emsp;接入大语言模型：`ChatGPT-3.5`、`ChatGPT-4` （需要使用`OpenAI KEY`）
 
-&emsp;&emsp;设置`OpenAI-Key`：修改`.env.development`和`.env.production`文件中 `VUE_APP_OPENAI_API_KEY="你的openai api key"`
->警告
->
->使用 `OpenAI-Key` 时，如果网络不通，那是`被墙了`，你需要自建代理，绝对不要使用别人的公开代理，那是危险的。
-
 &emsp;&emsp;👍👍 感谢若依❤️❤️ 
 
 * 前端采用Vue、Element UI。
