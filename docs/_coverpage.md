@@ -68,7 +68,7 @@
         </div>
         <div class="desc" style="text-align: left;font-size: 18px;line-height: 30px;color: #555;">
 		  <p style="margin: 15px 0;">完全免费的在线文档</p>
-          <p style="margin: 15px 0;">全能白板 • 思维导图 • BPMN • 电子表格 • 幻灯片 • Markdown • 代码</p>
+          <p style="margin: 15px 0;">全能白板 • 思维导图 • BPMN • 电子表格 • 幻灯片 • Markdown • 代码 • ChatGPT</p>
           <p style="margin: 15px 0;">敬请期待：文档 • 流程图 • 简历 • 设计 • 图片编辑 • 甘特图 • 图表</p>
         </div>
         <div class="btn" style="color: rgb(69, 83, 105); border: 2px solid rgb(69, 83, 105);width: 160px;height: 50px;border-radius: 5px;font-size: 18px;font-weight: 700;line-height: 50px;padding: 0;text-align: center;margin-top: 40px;">
