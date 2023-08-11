@@ -1,5 +1,11 @@
 ## ChatGPT
 
+| 组件 | 源码 | 版本 | license |
+| ------ | ------ | ------ | ------ |
+| openai | [地址](https://github.com/openai/openai-node)  | 3.2.1 | MIT |
+| markdown-it-vue | [地址](https://github.com/ravenq/markdown-it-vue)  | 1.1.7 | MIT |
+
+
 设置`OpenAI-Key`：修改`.env.development`和`.env.production`文件中 `VUE_APP_OPENAI_API_KEY="你的openai api key"`
 >警告
 >
