@@ -8,3 +8,4 @@
   * [RuoYi-Vue-DocHub](/RuoYi-Vue-DocHub/)
   * [photoGraphy-Uniapp](/photoGraphy-Uniapp/)
   * [RuoYi-Vue-Blog-Uniapp](/RuoYi-Vue-Blog-Uniapp/)
+  * [RuoYi-Vue-Intelligent-Platform](/RuoYi-Vue-Intelligent-Platform/)
