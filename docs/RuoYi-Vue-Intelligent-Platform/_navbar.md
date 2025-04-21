@@ -9,3 +9,4 @@
   * [photoGraphy-Uniapp](/photoGraphy-Uniapp/)
   * [RuoYi-Vue-Blog-Uniapp](/RuoYi-Vue-Blog-Uniapp/)
   * [RuoYi-Vue-Intelligent-Platform](/RuoYi-Vue-Intelligent-Platform/)
+  * [RuoYi-Vue-Research-System](/RuoYi-Vue-Research-System/)
